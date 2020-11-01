@@ -13,6 +13,8 @@
 		6C80B9B4254E507600B7BAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C80B9B2254E507600B7BAAE /* Main.storyboard */; };
 		6C80B9B6254E507600B7BAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C80B9B5254E507600B7BAAE /* Assets.xcassets */; };
 		6C80B9B9254E507600B7BAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C80B9B7254E507600B7BAAE /* LaunchScreen.storyboard */; };
+		6C80B9C2254E66D100B7BAAE /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B9C1254E66D100B7BAAE /* SqueezeNet.mlmodel */; };
+		6C80B9C5254E69F500B7BAAE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C80B9C4254E69F500B7BAAE /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6C80B9B5254E507600B7BAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C80B9B8254E507600B7BAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C80B9BA254E507600B7BAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C80B9C1254E66D100B7BAAE /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		6C80B9C4254E69F500B7BAAE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6C80B9AC254E507600B7BAAE /* AppDelegate.swift */,
 				6C80B9AE254E507600B7BAAE /* SceneDelegate.swift */,
 				6C80B9B0254E507600B7BAAE /* ViewController.swift */,
+				6C80B9C1254E66D100B7BAAE /* SqueezeNet.mlmodel */,
+				6C80B9C4254E69F500B7BAAE /* Resnet50.mlmodel */,
 				6C80B9B2254E507600B7BAAE /* Main.storyboard */,
 				6C80B9B5254E507600B7BAAE /* Assets.xcassets */,
 				6C80B9B7254E507600B7BAAE /* LaunchScreen.storyboard */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C80B9C5254E69F500B7BAAE /* Resnet50.mlmodel in Sources */,
 				6C80B9B1254E507600B7BAAE /* ViewController.swift in Sources */,
 				6C80B9AD254E507600B7BAAE /* AppDelegate.swift in Sources */,
 				6C80B9AF254E507600B7BAAE /* SceneDelegate.swift in Sources */,
+				6C80B9C2254E66D100B7BAAE /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
